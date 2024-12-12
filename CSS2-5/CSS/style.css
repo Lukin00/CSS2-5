@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+#navbar{
+    width: 100%;
+
+    background-color: #FBF9FF;
+}
+#navbar_container{
+    height: 48px;
+    margin: 12px 32px;
+    text-align: center;
+}
+#logo_container{
+    display: inline;
+    float: left;
+}
+#logo{
+    margin-top: 13.49px;
+}
+#ul_container{
+    text-align: center;
+}
+#unorder_list{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 13.49px;
+}
+.list{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+#contact_us{
+    float: right;
+    background-color: #6941C6;
+    border: 1px solid #6941C6;
+    width: 105px;
+    height: 33px;
+    border-radius: 8px;
+    color: white;   
+    position: absolute;
+    right: 32px;
+    transform: translateY(25%);
+}
+
+
+#main_container{
+    width: 1480px;
+    height: 3083px;
+    margin: 0 auto;
+    margin-top: 106px;
+    background-color: #F1E8FF;
+
+}
+#plans_container{
+    width: 1248px;
+    height: 753px;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+#pricing_plans_head{
+    width: 768px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: center;
+}
+#pricing_plans{
+    font-size: 40px;
+    font-weight: 800;
+}
+#free_plan{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #535862;
+    margin-top: 20px;
+}
+#plans{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#basic_plan{
+    background-color: white;
+    border-radius: 16px;
+    display: inline-block;
+    width: 373.33334px;
+    height: 589px;
+    text-align: center;  
+}
+#basic_header{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6941C6;
+    border: 1px solid #E9D7FE;
+    border-radius: 9999px;
+    padding: 0px 12px;
+    background-color: #F9F5FF;
+}
+#business_plan{
+    background-color: white;
+    border-radius: 16px;
+    display: inline-block;
+    width: 373.33331px;
+    height: 589px;
+    margin: 0px 32px;
+    text-align: center;
+}
+#business_header{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6941C6;
+    border: 1px solid #E9D7FE;
+    border-radius: 9999px;
+    padding: 0px 12px;
+    background-color: #F9F5FF;
+}
+#enterprice_plan{
+    background-color: white;
+    border-radius: 16px;
+    display: inline-block;
+    width: 373.33331px;
+    height: 589px;
+    text-align: center;
+} 
+#enterpriec_header{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6941C6;
+    border: 1px solid #E9D7FE;
+    border-radius: 9999px;
+    padding: 0px 12px;
+    background-color: #F9F5FF;
+}
+
+#price{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #181D27;
+    margin-top: 20px;
+}
+#plan_description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+    margin-top: 8px;
+}
+
+#buttons{
+    width: 309.33334px;
+    height: 108px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+#get_started{
+    width: 309.33334px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+    font-size: 16px; 
+    line-height: 24px;
+    font-weight: 600;
+    color: white;
+}
+#sales_chat{
+    margin-top: 12px;
+    width: 309.33334px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    font-size: 16px; 
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#horizontal_rule{
+    width: 309.33334px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#terms_container{
+    width: 309.33334px;
+    height: 184px;
+    margin: 0 auto ;
+    margin-top: 33px;
+    text-align: left;
+
+}
+#ul_terms{
+    list-style-position: inside;
+    list-style-image: url(../image/check-circle.svg);
+
+}
+.terms{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+
+#second_container{
+    width: 1248px;
+    height: 1258px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 64px;
+    border-radius: 24px;
+}
+
+#question_head{
+    width: 768px;
+    height: 92px;
+    margin: 0 auto;
+    margin-top: 32px;
+    text-align: center;
+}
+#asked{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    color: #181D27;
+}
+
+#need_know{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #535862;
+}
+
+#product_description{
+    width: 768px;
+    height: 1064px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#a_container{
+    width: 768px;
+    height: 168px;
+    border: 1px solid #E4E4E4;
+    border-radius: 16px;
+    background-color: #E4E4E4;
+}
+#description_a{
+    width: 704px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#arrow{
+    display: inline-block;
+}
+#question_a{
+    display: inline-block;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #181D27;
+}
+#answer_a{
+    margin: 8px 56px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#b_container{
+    width: 768px;
+    height: 144px;
+    margin-top: 16px;
+    background-color: #FFE5E5;
+    border: 2px solid #FF2323;
+    border-radius: 16px;
+}
+#description_b{
+    width: 704px;
+    height: 80px;
+    border: 1px solid #FFE5E5;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#question_b{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+#answer_b{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#c_container{
+    width: 768px;
+    height: 168px;
+    border: 1px solid #E9D7FF; 
+    background-color: #E9D7FF;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+#description_c{
+    width: 704px;
+    height: 104px;
+    border: 1px solid #E9D7FF;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#question_c{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+#answer_c{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#d_container{
+    width: 768px;
+    height: 168px;
+    border: 1px solid #F7F4FF;
+    border-radius: 16px;
+    margin-top: 16px;
+    background-color: #F7F4FF;
+}
+#description_d{
+    width: 704px;
+    height: 104px;
+    border: 1px solid #F7F4FF;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#question_d{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+#answer_d{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#e_container{
+    width: 768px;
+    height: 168px;
+    border: 4px solid #326DFF;
+    border-radius: 16px;
+    margin-top: 16px;
+    background-color: #DCE6FF;
+}
+#description_e{
+    width: 704px;
+    height: 104px;
+    border: 1px solid #DCE6FF;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#question_e{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+#answer_e{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#f_container{
+    width: 768px;
+    height: 168px;
+    border: 1px solid #FFD5E7;
+    border-radius: 16px;
+    margin-top: 16px;
+    background-color: #FFD5E7;
+}
+#description_f{
+    width: 704px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+#question_f{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+#answer_f{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+#review_container{
+    width: 1248px;
+    height: 758px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 64px;
+    border-radius: 24px;
+    background-color: white;
+}
+#review_head{
+    width: 768px; 
+    height: 94px;
+    margin: 0 auto;
+    margin-top: 32px;
+    text-align: center;
+}
+#our_reviews{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+#first_hand{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #535862;
+}
+
+#review_box{
+    width: 1184px;
+    height: 536px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+#card_a{
+    display: inline-block;
+}
+#card_b{
+    float: right;
+}   
+#card_c{
+    margin-top: 24px;
+}
+#card_d{
+    margin-top: 24px;
+    float: right;
+}
