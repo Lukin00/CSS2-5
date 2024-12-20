@@ -12,9 +12,343 @@
 }
 .navbar{
     margin: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
     padding: 13px;
     display: inline-block;
+}
+.nav_links{
+    display: inline-block;
+}
+a{
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.contact_us_button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid #6941C6;
+    background-color: #6941C6;
+    border-radius: 8px;
+    color: white;
+
+}
+/*მთავარი  კონტენტი*/
+.main_container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F1E8FF;
+    margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing_container{
+    margin-top: 96px;
+    max-width: 1248px;
+    width: 100%;
+    height: 753px;
+}
+.pricing_head{
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.pricing_subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #535862;
+    margin-top: 20px;
+}
+.pricing_items_container{
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing_plans{
+    max-width: 373px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 16px;
+}
+
+
+.plan_head_container{
+    text-align: center;
+}
+.card_head{
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6941C6;
+    border: 1px solid #6941C6;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #F9F5FF;
+}
+.card_price{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #181D27;
+    margin-top: 16px;
+}
+.card_subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+    margin-top: 8px;
+}
+
+.plan_button_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start_button{
+    max-width: 309px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #7F56D9;
+    background-color: #7F56D9;
+    padding: 12px 18px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: white;
+}
+.chat_button{
+    margin-top: 12px;
+    max-width: 309px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 12px 18px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.list_container{
+    max-width: 309px;
+    width: 100%;
+    /*ზედა ბორდერი არის და არ უნდა წავშალო*/
+    border-top: 1px solid black;
+    margin: 0 auto;
+    margin-top: 32px;
+
+}
+.list_wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-top: 33px;
+    margin-bottom: 40px;
+}
+.list_items{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.asked_questions_container{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    max-width: 1248px;
+    width: 100%;
+    padding: 32px 0px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.questions_head_container{
+    text-align: center;
+}
+.question_head{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    color: #181D27;
+}
+.question_subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #535862;
+    margin-top: 20px;
+}
+.items_wrapper{
+    max-width: 768px;
+    width: 100%;
+    height: 1064px;
+}
+.arrow{
+    display: inline-block;
+    vertical-align: middle;
+}
+.question{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-left: 24px;
+    color: #181D27;
+}
+.question_text{
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+    margin-top: 8px;
+}
+.question_item_container{
+    max-width: 768px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.items_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*card-ების ფერები და ბორდერები*/
+.first{
+    background-color: #E4E4E4;
+}
+.second{
+    border: 2px solid #FF2323;
+    background-color: #FFE5E5;
+}
+.third{
+    background-color: #E9D7FF;
+}
+.fourth{
+    background-color: #F7F4FF;
+}
+.fifth{
+    border: 4px solid #326DFF;
+    background: #DCE6FF;
+}
+.sixth{
+    background: #FFD5E7; 
+}
+
+
+
+.review_container{
+    max-width: 1248px;
+    width: 100%;
+    height: 758px;
+    margin-bottom: 96px;
+    background-color: white; 
+    border-radius: 16px;
+    padding: 32px ;
+}
+.review_head_container{
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.review_head{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #181D27;
+}
+.review_subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #535862;
+    margin-top: 20px;
+}
+.review_content_container{
+    height: 536px;
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.review_card{
+    max-width: 580px;
+    width: 100%;
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.avatar_description{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #181D27;
+}
+.avatar_image{
+    display: inline-block;
+    vertical-align: middle;
+}   
+.avatar_info_container{
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+} 
+.verified{
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.avatar_name{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #181D27;
+}
+.avatar_status{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+.card_wrapper{
+    margin-top: 50px;
+}
+.company_logo{
+    display: inline-block;
+    margin-left: 12px;
 }
 
